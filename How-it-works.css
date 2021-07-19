@@ -1,22 +1,93 @@
-/* .navbar-light {
-    justify-content: space-around;
-} */
-
-#header-side {
-    width: 500px;
-}
+/* General */
 .container {
     margin: 5%;
+    font-weight: bold;
 }
+.btn {
+    border-radius: 7.5pt;
+    font-weight: bold;
+}
+.card-body {
+    margin: 25% 50px;
+}
+
+/* Nav Bar */
+.navbar-container {
+    margin: 0%;
+    max-width: 100%;
+}
+.navbar-nav {
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-nav img {
+    margin-right: 10%;
+}
+.btn-sign-in {
+    background-color: white;
+    border: 3px solid #0d6efd;
+    color: #0d6efd;
+    height: 2.5rem;
+    vertical-align: center;
+}
+.btn-try-it-free {
+    height: 2.5rem;
+    vertical-align: center;
+}
+.btn-sign-in, .btn-chat-us-1 {
+    margin: 1% 2.5%;
+}
+
+/* Focus on Your Business */
+.focus-business-container {
+    margin: 2% 10%;
+}
+.focus-business-container h1 {
+    margin: 2.5% 0%;
+    font-size: 50pt;
+}
+.focus-business-container h2 {
+    margin: 2.5% 0%;
+    font-size: 22pt;
+}
+.focus-business-container p {
+    color: grey;
+    font-size: 15pt;
+}
+.focus-business-container-text img {
+    max-height: 1.2vw;
+    width: auto;
+    margin: 0% 2%;
+}
+.btn-sign-up-free {
+    padding: 2% 3%;
+}
+.btn-chat-us-1 {
+    padding: 2% 3%;
+    background-color: white;
+    border: 3px solid #0d6efd;
+    color: #0d6efd;
+}
+#header-side {
+    width: 35vw;
+    height: auto;
+    margin-left: 5%;
+}
+
+/* How it Works paragraph */
 .how-it-works-text {
     margin: 5% 30%;
     text-align: center;
-    font-weight: bold;
 }
+.how-it-works-text p {
+    font-size: 17pt;
+}
+
+/* Collect Useful Info */
 .collect-useful-info {
-    border: 1px solid rgb(200,200,200);
+    border: 2px solid rgb(200,200,200);
     border-radius: 20px;
-    margin: 0% 5%;
+    margin: 0% 15%;
 }
 .collect-useful-info-pic img {
     margin: 30% 0% 30% 10%;
@@ -30,37 +101,51 @@
     color: white;
     border-radius: 0px 20px 20px 0px;
 }
-.collect-useful-info-text h5 {
+.collect-useful-info-text h3 {
     text-align: center;
 }
-.card-body {
-    margin: 25% 50px;
+.collect-useful-info-text p {
+    font-size: 13pt;
+    font-weight: bold;
 }
+
+/* Paragraph */
 .how-it-works-text-2 {
     margin: 10% 30%;
     text-align: center;
-    font-weight: bold;
+    font-size: 17pt;
 }
+
+/* Get Paid Sooner */
+/* Same as Collect Useful Info */
+
+/* Footer */
 .card-body-footer {
     background: #0d6efd;
     color: white;
-    font-weight: bold;
+    padding-bottom: 5%;
 }
-.card-body-footer-btn {
-    margin: 2%;
+.card-body-footer h2 {
+    margin: 2% 0% 1% 0%;
+}
+.card-body-footer p {
+    font-size: 13pt;
+    font-weight: bold;
 }
 .card-body-footer-btn span {
     margin: 2.5%;
 }
-
 .btn-get-started {
     background-color: rgb(5, 218, 5);
     padding: 5px 50px;
-    font-weight: bold;
 }
-.btn-chat-us {
+.btn-chat-us-2 {
     background-color: white;
     padding: 5px 50px;
     color: #0d6efd;
-    font-weight: bold;
+}
+.card-body-footer img {
+    max-height: 1.2vw;
+    width: auto;
+    margin: 2% 2%;
 }
