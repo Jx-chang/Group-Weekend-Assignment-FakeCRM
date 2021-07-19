@@ -1,0 +1,108 @@
+
+.image {
+    width: 900px;
+    height: auto;
+}
+
+
+.facebook {
+
+    font-size: 23px;
+    padding-top: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer
+}
+
+.twitter {
+    
+    font-size: 23px;
+    padding-top: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer
+}
+
+.gmail {
+    
+    font-size: 23px;
+    padding-top: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer
+}
+
+.linkedin {
+    
+    font-size: 23px;
+    padding-top: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer
+}
+
+
+.btn {
+    background-color: #0342ee;
+    width: 150px;
+    color: #fff;
+    border-radius: 500px;
+}
+
+.btn:hover {
+    background-color: navy;
+    color: white;
+    cursor: pointer
+}
+
+
+
+.input-icons i {
+    width: 40px;
+    height: auto;
+    position: absolute;
+}
+  
+.input-icons {
+    
+    padding: 5px 12px 5px 12px;
+    border: 1px solid black;
+    border-radius: 500px;
+
+    width: 350px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    
+    outline-width: 0
+}
+
+.form-control {
+    border: 0;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+/* .input-field {
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+} */
+
